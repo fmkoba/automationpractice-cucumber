@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a common user\n    I want to be able to search for a product",
+    "keyword": "Feature",
+    "name": "Home Page",
+    "line": 1,
+    "id": "home-page",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "home-page;search-feature",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Search Feature",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am at the home page",
+            "result": {
+              "status": "passed",
+              "duration": 12723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I seach for an item",
+            "result": {
+              "status": "passed",
+              "duration": 9158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see a results page for that search",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

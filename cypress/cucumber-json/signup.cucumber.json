@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a new user\n    I want to sign up for the application",
+    "keyword": "Feature",
+    "name": "Signup feature",
+    "line": 1,
+    "id": "signup-feature",
+    "tags": [],
+    "uri": "signup.feature",
+    "elements": [
+      {
+        "id": "signup-feature;valid-signup",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Valid Signup",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am at the  signup page",
+            "result": {
+              "status": "passed",
+              "duration": 11299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I submit the signup form",
+            "result": {
+              "status": "passed",
+              "duration": 26237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the user page",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

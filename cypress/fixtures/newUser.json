@@ -1,0 +1,18 @@
+{
+  "firstName": "Automation",
+  "lastName": "Bot",
+  "password": "password",
+  "birthDay": "22",
+  "birthMonth": "11",
+  "birthYear": "1988",
+  "address": "Test Street",
+  "city": "Testopolis",
+  "country": "United States",
+  "state": "Arizona",
+  "zipCode": "12345",
+  "company": "TestCo",
+  "additionalInfo": "Test additional information text area",
+  "phone": "123321123",
+  "mobilePhone": "234432234",
+  "addressAlias": "Bot Place"
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "description": "    3rd party API",
+    "keyword": "Feature",
+    "name": "API",
+    "line": 1,
+    "id": "api",
+    "tags": [],
+    "uri": "api.feature",
+    "elements": [
+      {
+        "id": "api;api-health-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "API health test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A request is made to the ping endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "It should respond with a 201 status code",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api;get-all-bookings",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Get all bookings",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I make a GET request to the base bookings endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should get a collection of bookings",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api;create-a-booking",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Create a booking",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I make a POST request with an appropriate object to the bookings endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "A booking should be created and said booking should be returned",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api;get-one-booking",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Get one booking",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I make a GET request to the booking endpoint to fetch a specific booking",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The specified booking should be returned",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api;update-a-booking",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Update a booking",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I make a PUT request to the booking endpoint with an appropriate booking object and authentication",
+            "result": {
+              "status": "passed",
+              "duration": 336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Said booking should be updated and the new information should be returned",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api;fail-to-delete-a-booking-without-authentication",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Fail to delete a booking without authentication",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I make a DELETE request to the booking endpoint without authentication",
+            "result": {
+              "status": "passed",
+              "duration": 357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "A 403 error status should be returned",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api;delete-a-booking-with-authentication",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Delete a booking with authentication",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I make a DELETE request to an specific booking at the booking endpoint with authentication",
+            "result": {
+              "status": "passed",
+              "duration": 357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "The booking should be deleted and a 200 status code should be returned",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

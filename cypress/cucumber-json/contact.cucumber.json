@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a regular user\n    I want to submit the contact form",
+    "keyword": "Feature",
+    "name": "Contact Page",
+    "line": 1,
+    "id": "contact-page",
+    "tags": [],
+    "uri": "contact.feature",
+    "elements": [
+      {
+        "id": "contact-page;submission-with-a-file",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Submission with a file",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am at the contact page",
+            "result": {
+              "status": "passed",
+              "duration": 11274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the contact form and attach a file",
+            "result": {
+              "status": "passed",
+              "duration": 1736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to submit the contact form",
+            "result": {
+              "status": "passed",
+              "duration": 8039000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

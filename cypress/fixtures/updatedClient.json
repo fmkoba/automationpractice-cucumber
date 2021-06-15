@@ -1,0 +1,11 @@
+{
+    "firstname" : "Fernando2",
+    "lastname" : "Test2",
+    "totalprice" : 222,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2022-01-01",
+        "checkout" : "2022-02-01"
+    },
+    "additionalneeds" : "Diner"
+  }

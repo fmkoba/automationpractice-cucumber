@@ -1,0 +1,93 @@
+[
+  {
+    "description": "    As a valid user\n    I want to log in into the application",
+    "keyword": "Feature",
+    "name": "Login page",
+    "line": 1,
+    "id": "login-page",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-page;valid-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Valid Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the login page",
+            "result": {
+              "status": "passed",
+              "duration": 25893000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I submit login",
+            "result": {
+              "status": "passed",
+              "duration": 14538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the home page",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page;invalid-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Invalid Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I open the login page",
+            "result": {
+              "status": "passed",
+              "duration": 19468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I submit an invalid login",
+            "result": {
+              "status": "passed",
+              "duration": 7902000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see an error message",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
